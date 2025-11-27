@@ -12,7 +12,7 @@
 #' ## `uk_population_2019` dataframe with 398 rows and 4 columns
 #'
 #' \describe{
-#'     item{ `name` (chr) }{
+#'     \item{ `name` (chr) }{
 #'         The region name
 #'       }
 #'     \item{ `code` (chr) }{
@@ -56,7 +56,7 @@
 #' ## `uk_population_2019_by_5yr_age` dataframe with 7562 rows and 6 columns
 #'
 #' \describe{
-#'     item{ `name` (chr) }{
+#'     \item{ `name` (chr) }{
 #'         The region name
 #'       }
 #'     \item{ `code` (chr) }{
@@ -106,7 +106,7 @@
 #' ## `uk_population_2019_by_10yr_age` dataframe with 3980 rows and 6 columns
 #'
 #' \describe{
-#'     item{ `name` (chr) }{
+#'     \item{ `name` (chr) }{
 #'         The region name
 #'       }
 #'     \item{ `code` (chr) }{

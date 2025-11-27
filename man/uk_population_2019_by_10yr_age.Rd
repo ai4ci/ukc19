@@ -28,7 +28,7 @@ Stratified by 10 year age groups
 \subsection{\code{uk_population_2019_by_10yr_age} dataframe with 3980 rows and 6 columns}{
 
 \describe{
-item{ \code{name} (chr) }{
+\item{ \code{name} (chr) }{
 The region name
 }
 \item{ \code{code} (chr) }{

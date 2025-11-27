@@ -26,7 +26,7 @@ This is UK wide and covers country, regions and LTLA (2019 boundaries)
 \subsection{\code{uk_population_2019} dataframe with 398 rows and 4 columns}{
 
 \describe{
-item{ \code{name} (chr) }{
+\item{ \code{name} (chr) }{
 The region name
 }
 \item{ \code{code} (chr) }{
