@@ -44,3 +44,16 @@ v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 - `growth.high` (dbl) :
 
   the higher estimate of the exponential growth rate
+
+## Examples
+
+``` r
+dplyr::glimpse(spim_consensus)
+#> Rows: 113
+#> Columns: 5
+#> $ date        <date> 2020-05-29, 2020-06-05, 2020-06-12, 2020-06-19, 2020-06-2…
+#> $ rt.low      <dbl> 0.7, 0.7, 0.8, 0.7, 0.7, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8…
+#> $ rt.high     <dbl> 0.9, 1.0, 1.0, 0.9, 0.9, 0.9, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0…
+#> $ growth.low  <dbl> NA, NA, -0.01, -0.04, -0.05, -0.05, -0.04, -0.04, -0.04, -…
+#> $ growth.high <dbl> NA, NA, -0.03, -0.01, -0.02, -0.02, -0.01, 0.00, 0.00, -0.…
+```

@@ -32,5 +32,8 @@ Number of check-ins
 }
 }
 }
+\examples{
+dplyr::glimpse(nhs_app)
+}
 \concept{datasets}
 \keyword{datasets}

@@ -21,6 +21,7 @@ An object of class `tbl_df` (inherits from `tbl`, `data.frame`) with
 ## Source
 
 <https://ukhsa-dashboard.data.gov.uk/covid-19-archive-data-download>
+
 Originally licensed under the [Open Government Licence
 v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 
@@ -64,3 +65,19 @@ size.
 - `population` (dbl) :
 
   the population size for this age group
+
+## Examples
+
+``` r
+dplyr::glimpse(england_cases_by_5yr_age)
+#> Rows: 26,790
+#> Columns: 8
+#> $ code       <chr> "E92000001", "E92000001", "E92000001", "E92000001", "E92000…
+#> $ date       <date> 2020-01-30, 2020-01-30, 2020-01-30, 2020-01-30, 2020-01-30…
+#> $ class      <chr> "00_04", "05_09", "10_14", "15_19", "20_24", "25_29", "30_3…
+#> $ count      <dbl> 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,…
+#> $ denom      <dbl> 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,…
+#> $ population <dbl> 3299637, 3538206, 3354246, 3090232, 3487863, 3801409, 38079…
+#> $ name       <chr> "England", "England", "England", "England", "England", "Eng…
+#> $ codeType   <chr> "CTRY20", "CTRY20", "CTRY20", "CTRY20", "CTRY20", "CTRY20",…
+```

@@ -1,6 +1,6 @@
 # NEWS
 
-# ukc19 0.0.1
+# ukc19 0.0.2
 
 New data sets included:
 
@@ -21,5 +21,5 @@ New data sets included:
   + `covid_variants_ltla`: LTLA (England): 
 * SPI-M consensus reproduction number and growth rate estimates: `spim_consensus`
 * Serial interval data from published works, reformatted:
-  + `ganyani_clusters`: Singapore and Tianijn clusters
+  + `ganyani_clusters`: Singapore and Tianjin clusters
   + `du_serial_interval`: Serial interval data

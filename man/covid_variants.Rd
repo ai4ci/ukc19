@@ -51,5 +51,9 @@ The total number of sequences of all variants identified on this date
 }
 }
 }
+\examples{
+dplyr::glimpse(covid_variants)
+
+}
 \concept{datasets}
 \keyword{datasets}

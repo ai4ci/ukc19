@@ -18,6 +18,7 @@ An object of class `tbl_df` (inherits from `tbl`, `data.frame`) with
 ## Source
 
 <https://ukhsa-dashboard.data.gov.uk/covid-19-archive-data-download>
+
 Originally licensed under the [Open Government Licence
 v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 
@@ -48,3 +49,17 @@ v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 - `population` (dbl) :
 
   the population size for this geography
+
+## Examples
+
+``` r
+dplyr::glimpse(ltla_cases)
+#> Rows: 512,050
+#> Columns: 6
+#> $ code       <chr> "S12000033", "S12000033", "S12000033", "S12000033", "S12000…
+#> $ date       <date> 2020-03-04, 2020-03-05, 2020-03-06, 2020-03-07, 2020-03-08…
+#> $ count      <dbl> 1, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 2, 1, 0, 1, 0, 0, 3,…
+#> $ population <dbl> 228670, 228670, 228670, 228670, 228670, 228670, 228670, 228…
+#> $ name       <chr> "Aberdeen City", "Aberdeen City", "Aberdeen City", "Aberdee…
+#> $ codeType   <chr> "LAD19", "LAD19", "LAD19", "LAD19", "LAD19", "LAD19", "LAD1…
+```

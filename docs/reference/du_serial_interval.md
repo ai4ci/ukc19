@@ -35,3 +35,14 @@ rows and 3 columns.
 - `infector_id` (dbl) :
 
   Case id of infector where known
+
+## Examples
+
+``` r
+dplyr::glimpse(du_serial_interval)
+#> Rows: 752
+#> Columns: 3
+#> $ id            <dbl> 23, 28, 35, 22, 49, 62, 60, 63, 65, 66, 68, 88, 76, 95, …
+#> $ symptom_onset <dbl> 16, 15, 16, 14, 18, 15, 17, 11, 23, 17, 21, 23, 22, 12, …
+#> $ infector_id   <dbl> NA, NA, NA, NA, NA, NA, 62, 60, NA, NA, NA, NA, NA, NA, …
+```

@@ -28,6 +28,9 @@
 #' @keywords datasets
 #' @concept datasets
 #' @source <https://github.com/MeyersLabUTexas/COVID-19>
+#'
+#' @examples
+#' dplyr::glimpse(du_serial_interval)
 "du_serial_interval"
 
 ## end of documentation block for `du_serial_interval`
@@ -72,6 +75,9 @@
 #' @keywords datasets
 #' @concept datasets
 #' @source <https://github.com/cecilekremer/COVID19>
+#'
+#' @examples
+#' dplyr::glimpse(ganyani_clusters)
 "ganyani_clusters"
 
 ## end of documentation block for `ganyani_clusters`

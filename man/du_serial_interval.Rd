@@ -35,5 +35,8 @@ Case id of infector where known
 }
 }
 }
+\examples{
+dplyr::glimpse(du_serial_interval)
+}
 \concept{datasets}
 \keyword{datasets}

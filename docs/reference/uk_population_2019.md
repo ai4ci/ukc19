@@ -46,3 +46,15 @@ boundaries)
 - `population` (dbl) :
 
   the count of the population in that age group
+
+## Examples
+
+``` r
+dplyr::glimpse(uk_population_2019)
+#> Rows: 398
+#> Columns: 4
+#> $ code       <chr> "K02000001", "K03000001", "K04000001", "E92000001", "E12000…
+#> $ population <dbl> 66796807, 64903140, 59439840, 56286961, 2669941, 530094, 10…
+#> $ name       <chr> "United Kingdom", "Great Britain", "England and Wales", "En…
+#> $ codeType   <chr> "CTRY20", "CTRY20", "CTRY20", "CTRY20", "RGN20", "LAD19", "…
+```

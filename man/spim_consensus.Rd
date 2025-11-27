@@ -41,5 +41,8 @@ the higher estimate of the exponential growth rate
 }
 }
 }
+\examples{
+dplyr::glimpse(spim_consensus)
+}
 \concept{datasets}
 \keyword{datasets}

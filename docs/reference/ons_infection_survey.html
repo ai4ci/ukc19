@@ -17,7 +17,7 @@ free from ascertainment bias."></head><body>
 
     <a class="navbar-brand me-2" href="../index.html">ukc19</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.2</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -97,6 +97,22 @@ from weekly sample sizes.)</p></dd>
 
 </dl></div>
 
+    <div class="section level2">
+    <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">ons_infection_survey</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Rows: 9,820</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Columns: 8</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Groups: code, codeType, name [10]</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ code             <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "E92000001"<span style="color: #949494;">, </span>"E12000001"<span style="color: #949494;">, </span>"E12000002"<span style="color: #949494;">, </span>"E12000003"<span style="color: #949494;">, </span>"…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ codeType         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "CTRY20"<span style="color: #949494;">, </span>"RGN20"<span style="color: #949494;">, </span>"RGN20"<span style="color: #949494;">, </span>"RGN20"<span style="color: #949494;">, </span>"RGN20"<span style="color: #949494;">, </span>"RGN20"…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ name             <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "England"<span style="color: #949494;">, </span>"North East"<span style="color: #949494;">, </span>"North West"<span style="color: #949494;">, </span>"Yorkshire and…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ date             <span style="color: #949494; font-style: italic;">&lt;date&gt;</span> 2023-01-11<span style="color: #949494;">, </span>2023-01-11<span style="color: #949494;">, </span>2023-01-11<span style="color: #949494;">, </span>2023-01-11<span style="color: #949494;">, </span>2023…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ prevalence.0.5   <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 0.01970572<span style="color: #949494;">, </span>0.01908564<span style="color: #949494;">, </span>0.01939597<span style="color: #949494;">, </span>0.01940800<span style="color: #949494;">, </span>0.021…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ prevalence.0.025 <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 0.01878849<span style="color: #949494;">, </span>0.01574656<span style="color: #949494;">, </span>0.01698355<span style="color: #949494;">, </span>0.01677878<span style="color: #949494;">, </span>0.018…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ prevalence.0.975 <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 0.02067670<span style="color: #949494;">, </span>0.02286518<span style="color: #949494;">, </span>0.02186157<span style="color: #949494;">, </span>0.02226405<span style="color: #949494;">, </span>0.024…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ denom            <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> 9721<span style="color: #949494;">, </span>436<span style="color: #949494;">, </span>1335<span style="color: #949494;">, </span>964<span style="color: #949494;">, </span>736<span style="color: #949494;">, </span>896<span style="color: #949494;">, </span>1094<span style="color: #949494;">, </span>1821<span style="color: #949494;">, </span>1463<span style="color: #949494;">, </span>971…</span>
+</code></pre></div>
+    </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside></div>
 

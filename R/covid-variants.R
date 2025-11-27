@@ -43,6 +43,10 @@
 #' Contains Ordnance Survey data © Crown copyright and database right 2019
 #' Contains UK Health Security Agency data © Crown copyright and database right 2020
 #' Office for National Statistics licensed under the Open Government Licence v.3.0
+#'
+#' @examples
+#' dplyr::glimpse(covid_variants)
+#'
 "covid_variants"
 
 
@@ -100,4 +104,8 @@
 #' Contains Ordnance Survey data © Crown copyright and database right 2019
 #' Contains UK Health Security Agency data © Crown copyright and database right 2020
 #' Office for National Statistics licensed under the Open Government Licence v.3.0
+#'
+#' @examples
+#' dplyr::glimpse(covid_variants_ltla)
+#'
 "covid_variants_ltla"

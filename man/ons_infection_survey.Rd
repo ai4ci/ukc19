@@ -52,5 +52,8 @@ from weekly sample sizes.)
 }
 }
 }
+\examples{
+dplyr::glimpse(ons_infection_survey)
+}
 \concept{datasets}
 \keyword{datasets}

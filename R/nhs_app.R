@@ -24,4 +24,6 @@
 #'
 #' Originally licensed under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 #'
+#' @examples
+#' dplyr::glimpse(nhs_app)
 "nhs_app"

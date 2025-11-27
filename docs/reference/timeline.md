@@ -31,3 +31,14 @@ rows and 3 columns.
 - `end` (date) :
 
   The end date if a period
+
+## Examples
+
+``` r
+dplyr::glimpse(timeline)
+#> Rows: 19
+#> Columns: 3
+#> $ label <chr> "1st lockdown", "First schools return", "Alpha first UK sequence…
+#> $ start <date> 2020-03-23, 2020-06-01, 2020-10-01, 2020-11-05, 2020-12-08, 202…
+#> $ end   <date> 2020-07-04, NA, NA, 2020-12-02, NA, 2021-03-29, NA, NA, NA, NA,…
+```

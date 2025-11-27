@@ -50,7 +50,11 @@
 #' @keywords datasets
 #' @concept datasets
 #' @source <https://ukhsa-dashboard.data.gov.uk/covid-19-archive-data-download>
+#'
 #' Originally licensed under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+#'
+#' @examples
+#' dplyr::glimpse(england_cases_by_5yr_age)
 "england_cases_by_5yr_age"
 
 ## end of documentation block for `england_cases_by_5yr_age`
@@ -92,7 +96,11 @@
 #' @keywords datasets
 #' @concept datasets
 #' @source <https://ukhsa-dashboard.data.gov.uk/covid-19-archive-data-download>
+#'
 #' Originally licensed under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+#'
+#' @examples
+#' dplyr::glimpse(ltla_cases)
 "ltla_cases"
 
 ## end of documentation block for `ltla_cases`
@@ -134,7 +142,11 @@
 #' @keywords datasets
 #' @concept datasets
 #' @source <https://ukhsa-dashboard.data.gov.uk/covid-19-archive-data-download>
+#'
 #' Originally licensed under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+#'
+#' @examples
+#' dplyr::glimpse(england_covid_positivity)
 "england_covid_positivity"
 
 ## end of documentation block for `england_covid_positivity`

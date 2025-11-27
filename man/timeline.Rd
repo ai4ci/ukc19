@@ -24,5 +24,8 @@ rollout and first identification of major variants.
 \item{ \code{end} (date) }{ The end date if a period }
 }
 }
+\examples{
+dplyr::glimpse(timeline)
+}
 \concept{datasets}
 \keyword{datasets}

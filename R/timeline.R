@@ -16,4 +16,7 @@
 #' @docType data
 #' @keywords datasets
 #' @concept datasets
+#'
+#' @examples
+#' dplyr::glimpse(timeline)
 "timeline"

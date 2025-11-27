@@ -17,7 +17,7 @@ components of population change, median age and population density)."></head><bo
 
     <a class="navbar-brand me-2" href="../index.html">ukc19</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.2</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,6 +94,20 @@ this is UK wide and covers country, regions and LTLA (2019 boundaries)</p>
 
     </div>
 
+    <div class="section level2">
+    <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">uk_population_2019_by_5yr_age</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Rows: 7,562</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Columns: 6</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Groups: name, code, codeType [398]</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ code                <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "E06000001"<span style="color: #949494;">, </span>"E06000001"<span style="color: #949494;">, </span>"E06000001"<span style="color: #949494;">, </span>"E06000001"…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ class               <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "00_04"<span style="color: #949494;">, </span>"05_09"<span style="color: #949494;">, </span>"10_14"<span style="color: #949494;">, </span>"15_19"<span style="color: #949494;">, </span>"20_24"<span style="color: #949494;">, </span>"25_2…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ population          <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 5229<span style="color: #949494;">, </span>5923<span style="color: #949494;">, </span>5812<span style="color: #949494;">, </span>5167<span style="color: #949494;">, </span>5176<span style="color: #949494;">, </span>6103<span style="color: #949494;">, </span>6112<span style="color: #949494;">, </span>5575<span style="color: #949494;">, </span>49…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ name                <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Hartlepool"<span style="color: #949494;">, </span>"Hartlepool"<span style="color: #949494;">, </span>"Hartlepool"<span style="color: #949494;">, </span>"Hartlep…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ codeType            <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "LAD19"<span style="color: #949494;">, </span>"LAD19"<span style="color: #949494;">, </span>"LAD19"<span style="color: #949494;">, </span>"LAD19"<span style="color: #949494;">, </span>"LAD19"<span style="color: #949494;">, </span>"LAD1…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ baseline_proportion <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 0.055827808<span style="color: #949494;">, </span>0.063237351<span style="color: #949494;">, </span>0.062052251<span style="color: #949494;">, </span>0.055165861…</span>
+</code></pre></div>
+    </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside></div>
 

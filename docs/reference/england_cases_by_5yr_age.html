@@ -23,7 +23,7 @@ relative growth rates by age group."></head><body>
 
     <a class="navbar-brand me-2" href="../index.html">ukc19</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.2</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,8 +69,8 @@ relative growth rates by age group.</p>
     </div>
     <div class="section level2">
     <h2 id="source">Source<a class="anchor" aria-label="anchor" href="#source"></a></h2>
-    <p><a href="https://ukhsa-dashboard.data.gov.uk/covid-19-archive-data-download" class="external-link">https://ukhsa-dashboard.data.gov.uk/covid-19-archive-data-download</a>
-Originally licensed under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" class="external-link">Open Government Licence v3.0</a></p>
+    <p><a href="https://ukhsa-dashboard.data.gov.uk/covid-19-archive-data-download" class="external-link">https://ukhsa-dashboard.data.gov.uk/covid-19-archive-data-download</a></p>
+<p>Originally licensed under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" class="external-link">Open Government Licence v3.0</a></p>
     </div>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
@@ -110,6 +110,21 @@ size.</p><div class="section">
 
     </div>
 
+    <div class="section level2">
+    <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">england_cases_by_5yr_age</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Rows: 26,790</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Columns: 8</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ code       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "E92000001"<span style="color: #949494;">, </span>"E92000001"<span style="color: #949494;">, </span>"E92000001"<span style="color: #949494;">, </span>"E92000001"<span style="color: #949494;">, </span>"E92000…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ date       <span style="color: #949494; font-style: italic;">&lt;date&gt;</span> 2020-01-30<span style="color: #949494;">, </span>2020-01-30<span style="color: #949494;">, </span>2020-01-30<span style="color: #949494;">, </span>2020-01-30<span style="color: #949494;">, </span>2020-01-30…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ class      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "00_04"<span style="color: #949494;">, </span>"05_09"<span style="color: #949494;">, </span>"10_14"<span style="color: #949494;">, </span>"15_19"<span style="color: #949494;">, </span>"20_24"<span style="color: #949494;">, </span>"25_29"<span style="color: #949494;">, </span>"30_3…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ count      <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>1<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>1<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">, </span>0<span style="color: #949494;">,</span>…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ denom      <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">,</span>…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ population <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 3299637<span style="color: #949494;">, </span>3538206<span style="color: #949494;">, </span>3354246<span style="color: #949494;">, </span>3090232<span style="color: #949494;">, </span>3487863<span style="color: #949494;">, </span>3801409<span style="color: #949494;">, </span>38079…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ name       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "England"<span style="color: #949494;">, </span>"England"<span style="color: #949494;">, </span>"England"<span style="color: #949494;">, </span>"England"<span style="color: #949494;">, </span>"England"<span style="color: #949494;">, </span>"Eng…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ codeType   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "CTRY20"<span style="color: #949494;">, </span>"CTRY20"<span style="color: #949494;">, </span>"CTRY20"<span style="color: #949494;">, </span>"CTRY20"<span style="color: #949494;">, </span>"CTRY20"<span style="color: #949494;">, </span>"CTRY20"<span style="color: #949494;">,</span>…</span>
+</code></pre></div>
+    </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside></div>
 

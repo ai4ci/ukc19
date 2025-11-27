@@ -9,6 +9,7 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 }
 \source{
 \url{https://ukhsa-dashboard.data.gov.uk/covid-19-archive-data-download}
+
 Originally licensed under the \href{http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government Licence v3.0}
 }
 \usage{
@@ -56,6 +57,9 @@ the population size for this age group
 }
 }
 }
+}
+\examples{
+dplyr::glimpse(england_cases_by_5yr_age)
 }
 \concept{datasets}
 \keyword{datasets}

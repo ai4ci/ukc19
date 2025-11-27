@@ -55,3 +55,17 @@ that may introduce biases.
 - `denom` (dbl) :
 
   The total number of sequences of all variants identified on this date
+
+## Examples
+
+``` r
+dplyr::glimpse(covid_variants)
+#> Rows: 479
+#> Columns: 5
+#> Groups: class [10]
+#> $ date      <date> 2020-09-05, 2020-09-05, 2020-09-12, 2020-09-12, 2020-09-19,…
+#> $ class     <fct> Other, Alpha (B.1.1.7), Other, Alpha (B.1.1.7), Other, Alpha…
+#> $ who_class <fct> Other, Alpha, Other, Alpha, Other, Alpha, Other, Alpha, Othe…
+#> $ count     <dbl> 1182, 371, 1439, 588, 837, 429, 1685, 1157, 1208, 823, 1501,…
+#> $ denom     <dbl> 1553, 1553, 2027, 2027, 1266, 1266, 2842, 2842, 2031, 2031, …
+```

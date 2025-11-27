@@ -45,5 +45,8 @@ geographical source of the data
 }
 }
 }
+\examples{
+dplyr::glimpse(ganyani_clusters)
+}
 \concept{datasets}
 \keyword{datasets}

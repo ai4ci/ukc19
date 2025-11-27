@@ -18,8 +18,9 @@ An object of class `tbl_df` (inherits from `tbl`, `data.frame`) with
 
 ## Source
 
-<https://geoportal.statistics.gov.uk/> Originally licensed under the
-[Open Government Licence
+<https://geoportal.statistics.gov.uk/>
+
+Originally licensed under the [Open Government Licence
 v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 
 ## Details
@@ -37,3 +38,14 @@ v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 - `codeType` (chr) :
 
   The ONS geographical region code type (including year)
+
+## Examples
+
+``` r
+dplyr::glimpse(geography)
+#> Rows: 1,512
+#> Columns: 3
+#> $ name     <chr> "North East", "North West", "Yorkshire and The Humber", "East…
+#> $ code     <chr> "E12000001", "E12000002", "E12000003", "E12000004", "E1200000…
+#> $ codeType <chr> "RGN20", "RGN20", "RGN20", "RGN20", "RGN20", "RGN20", "RGN20"…
+```

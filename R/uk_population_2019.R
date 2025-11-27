@@ -36,6 +36,8 @@
 #'
 #' Originally licensed under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 #'
+#' @examples
+#' dplyr::glimpse(uk_population_2019)
 "uk_population_2019"
 
 ## end of documentation block for `uk_population_2019`
@@ -86,6 +88,8 @@
 #'
 #' Originally licensed under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 #'
+#' @examples
+#' dplyr::glimpse(uk_population_2019_by_5yr_age)
 "uk_population_2019_by_5yr_age"
 
 ## end of documentation block for `uk_population_2019_by_5yr_age`
@@ -136,6 +140,8 @@
 #'
 #' Originally licensed under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 #'
+#' @examples
+#' dplyr::glimpse(uk_population_2019_by_10yr_age)
 "uk_population_2019_by_10yr_age"
 
 ## end of documentation block for `uk_population_2019_by_10yr_age`

@@ -41,5 +41,8 @@ the count of the population in that age group
 }
 }
 }
+\examples{
+dplyr::glimpse(uk_population_2019)
+}
 \concept{datasets}
 \keyword{datasets}

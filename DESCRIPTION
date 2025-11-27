@@ -1,6 +1,6 @@
 Package: ukc19
 Title: Datasets from the UK COVID-19 outbreak
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     person(given = "Robert",
            family = "Challen",
@@ -17,3 +17,5 @@ Depends:
     R (>= 3.5)
 LazyData: true
 URL: https://ai4ci.github.io/ukc19, https://github.com/ai4ci/ukc19
+Imports: 
+    dplyr

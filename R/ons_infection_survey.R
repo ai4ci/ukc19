@@ -45,4 +45,7 @@
 #' @docType data
 #' @keywords datasets
 #' @concept datasets
+#'
+#' @examples
+#' dplyr::glimpse(ons_infection_survey)
 "ons_infection_survey"

@@ -24,7 +24,11 @@
 #' @keywords datasets
 #' @concept datasets
 #' @source <https://geoportal.statistics.gov.uk/>
+#'
 #' Originally licensed under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+#'
+#' @examples
+#' dplyr::glimpse(geography)
 "geography"
 
 ## end of documentation block for `geography`

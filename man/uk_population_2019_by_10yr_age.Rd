@@ -49,5 +49,8 @@ the proportion of the total regional population that is in an age group
 }
 }
 }
+\examples{
+dplyr::glimpse(uk_population_2019_by_10yr_age)
+}
 \concept{datasets}
 \keyword{datasets}

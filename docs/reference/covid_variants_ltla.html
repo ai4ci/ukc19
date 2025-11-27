@@ -17,7 +17,7 @@ geography data set with: geography %&amp;gt;% dplyr::filter(codeType == "LAD19")
 
     <a class="navbar-brand me-2" href="../index.html">ukc19</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.2</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,6 +106,22 @@ sequencing that may introduce biases.</p><div class="section">
 
     </div>
 
+    <div class="section level2">
+    <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">covid_variants_ltla</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Rows: 55,785</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Columns: 8</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ date      <span style="color: #949494; font-style: italic;">&lt;date&gt;</span> 2020-09-05<span style="color: #949494;">, </span>2020-09-05<span style="color: #949494;">, </span>2020-09-05<span style="color: #949494;">, </span>2020-09-05<span style="color: #949494;">, </span>2020-09-05<span style="color: #949494;">,</span>…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ name      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Arun"<span style="color: #949494;">, </span>"Aylesbury Vale"<span style="color: #949494;">, </span>"Babergh"<span style="color: #949494;">, </span>"Babergh"<span style="color: #949494;">, </span>"Barking and…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ codeType  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "LAD19"<span style="color: #949494;">, </span>"LAD19"<span style="color: #949494;">, </span>"LAD19"<span style="color: #949494;">, </span>"LAD19"<span style="color: #949494;">, </span>"LAD19"<span style="color: #949494;">, </span>"LAD19"<span style="color: #949494;">, </span>"LAD19…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ code      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "E07000224"<span style="color: #949494;">, </span>"E07000004"<span style="color: #949494;">, </span>"E07000200"<span style="color: #949494;">, </span>"E07000200"<span style="color: #949494;">, </span>"E090000…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ class     <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span> Other<span style="color: #949494;">, </span>Other<span style="color: #949494;">, </span>Other<span style="color: #949494;">, </span>Alpha (B.1.1.7)<span style="color: #949494;">, </span>Other<span style="color: #949494;">, </span>Alpha (B.1.1.7)…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ who_class <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span> Other<span style="color: #949494;">, </span>Other<span style="color: #949494;">, </span>Other<span style="color: #949494;">, </span>Alpha<span style="color: #949494;">, </span>Other<span style="color: #949494;">, </span>Alpha<span style="color: #949494;">, </span>Other<span style="color: #949494;">, </span>Alpha<span style="color: #949494;">, </span>Othe…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ count     <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 5<span style="color: #949494;">, </span>3<span style="color: #949494;">, </span>1<span style="color: #949494;">, </span>1<span style="color: #949494;">, </span>16<span style="color: #949494;">, </span>4<span style="color: #949494;">, </span>32<span style="color: #949494;">, </span>7<span style="color: #949494;">, </span>9<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>4<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>3<span style="color: #949494;">, </span>8<span style="color: #949494;">, </span>10<span style="color: #949494;">, </span>5<span style="color: #949494;">, </span>31<span style="color: #949494;">,</span>…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> $ denom     <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 5<span style="color: #949494;">, </span>3<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>20<span style="color: #949494;">, </span>20<span style="color: #949494;">, </span>39<span style="color: #949494;">, </span>39<span style="color: #949494;">, </span>11<span style="color: #949494;">, </span>11<span style="color: #949494;">, </span>6<span style="color: #949494;">, </span>6<span style="color: #949494;">, </span>2<span style="color: #949494;">, </span>5<span style="color: #949494;">, </span>5<span style="color: #949494;">, </span>8<span style="color: #949494;">, </span>15<span style="color: #949494;">, </span>15…</span>
+<span class="r-in"><span></span></span>
+</code></pre></div>
+    </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside></div>
 

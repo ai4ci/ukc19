@@ -9,6 +9,7 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 }
 \source{
 \url{https://geoportal.statistics.gov.uk/}
+
 Originally licensed under the \href{http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government Licence v3.0}
 }
 \usage{
@@ -34,6 +35,9 @@ The ONS geographical region code type (including year)
 }
 }
 }
+}
+\examples{
+dplyr::glimpse(geography)
 }
 \concept{datasets}
 \keyword{datasets}
