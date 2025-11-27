@@ -1,0 +1,41 @@
+# ukc19
+
+A selection of aggregated COVID-19 data from the UK, in an easy to use
+form for teaching and demonstration purposes.
+
+This data is sourced from publicly available data sets from various UK
+government websites where different aspects of the UK COVID-19 response
+published data. It is by no means comprehensive but aims to capture some
+of the main data so that it is preserved.
+
+At present the data is mostly focused on England.
+
+## Installation
+
+`ukc19` is hosted on the [AI4CI
+r-universe](https://ai4ci.r-universe.dev/). Installation from there is
+as follows:
+
+``` r
+options(repos = c(
+  "ai4ci" = 'https://ai4ci.r-universe.dev/',
+  CRAN = 'https://cloud.r-project.org'))
+
+# Download and install ukc19 in R
+install.packages("ukc19")
+```
+
+You can install the development version of `ukc19` from
+[GitHub](https://github.com/ai4ci/ukc19) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("ai4ci/ukc19")
+```
+
+## Funding
+
+The authors gratefully acknowledge the support of the UK Research and
+Innovation AI programme of the Engineering and Physical Sciences
+Research Council [EPSRC grant
+EP/Y028392/1](https://gtr.ukri.org/projects?ref=EP%2FY028392%2F1).
