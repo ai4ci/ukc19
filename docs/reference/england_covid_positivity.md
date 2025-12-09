@@ -14,7 +14,7 @@ data("england_covid_positivity")
 ## Format
 
 An object of class `tbl_df` (inherits from `tbl`, `data.frame`) with
-2048 rows and 6 columns.
+1413 rows and 6 columns.
 
 ## Source
 
@@ -55,7 +55,7 @@ v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 
 ``` r
 dplyr::glimpse(england_covid_positivity)
-#> Rows: 2,048
+#> Rows: 1,413
 #> Columns: 6
 #> $ date     <date> 2020-01-30, 2020-01-31, 2020-02-01, 2020-02-02, 2020-02-03, …
 #> $ code     <chr> "E92000001", "E92000001", "E92000001", "E92000001", "E9200000…

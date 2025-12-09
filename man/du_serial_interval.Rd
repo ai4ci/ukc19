@@ -20,6 +20,9 @@ Infect Dis, vol. 26, no. 6, pp. 1341–1343, Jun. 2020, doi:
 10.3201/eid2606.200357.
 }
 \details{
+"This is a publication of the U.S. Government. This publication is in the
+public domain and is therefore without copyright. All text from this work may
+be reprinted freely. Use of these materials should be properly cited."
 \subsection{\code{du_serial_interval} dataframe with 752 rows and 3 columns}{
 
 \describe{

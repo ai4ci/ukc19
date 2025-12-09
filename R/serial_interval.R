@@ -7,6 +7,10 @@
 #' Infect Dis, vol. 26, no. 6, pp. 1341–1343, Jun. 2020, doi:
 #' 10.3201/eid2606.200357.
 #'
+#' "This is a publication of the U.S. Government. This publication is in the
+#' public domain and is therefore without copyright. All text from this work may
+#' be reprinted freely. Use of these materials should be properly cited."
+#'
 #' ## `du_serial_interval` dataframe with 752 rows and 3 columns
 #'
 #' \describe{
@@ -44,6 +48,10 @@
 #' on symptom onset data, March 2020. Euro Surveill. 2020 Apr;25(17):2000257.
 #' doi: 10.2807/1560-7917.ES.2020.25.17.2000257. PMID: 32372755; PMCID:
 #' PMC7201952.
+#'
+#' Original article licensed under
+#' [Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/).
+#' Data was cleansed and formatted for R.
 #'
 #' ## `ganyani_clusters` dataframe with 196 rows and 6 columns
 #'

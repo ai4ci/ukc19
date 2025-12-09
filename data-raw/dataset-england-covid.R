@@ -143,7 +143,7 @@ england_covid_positivity =
   ) %>%
   dplyr::rename(name = area_name, code = area_code) %>%
   mutate(codeType = "CTRY20") %>%
-  dplyr::filter(!is.na(count) & !is.na(denom))
+  dplyr::filter(!is.na(count) & !is.na(denom) & name == "England")
 
 if (interactive()) {
   usethis::use_data(england_covid_positivity, overwrite = TRUE)

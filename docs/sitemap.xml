@@ -7,9 +7,11 @@
 <url><loc>https://ai4ci.github.io/ukc19/authors.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/index.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/news/index.html</loc></url>
+<url><loc>https://ai4ci.github.io/ukc19/reference/covid_challenge.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/covid_variants.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/covid_variants_ltla.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/du_serial_interval.html</loc></url>
+<url><loc>https://ai4ci.github.io/ukc19/reference/early_global_combined.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/england_cases_by_5yr_age.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/england_covid.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/england_covid_positivity.html</loc></url>
@@ -19,6 +21,7 @@
 <url><loc>https://ai4ci.github.io/ukc19/reference/ltla_cases.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/nhs_app.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/ons_infection_survey.html</loc></url>
+<url><loc>https://ai4ci.github.io/ukc19/reference/pcr_test_sensitivity.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/regional_population.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/spim_consensus.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/timeline.html</loc></url>
@@ -26,5 +29,6 @@
 <url><loc>https://ai4ci.github.io/ukc19/reference/uk_population_2019_by_10yr_age.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/uk_population_2019_by_5yr_age.html</loc></url>
 <url><loc>https://ai4ci.github.io/ukc19/reference/ukc19-package.html</loc></url>
+<url><loc>https://ai4ci.github.io/ukc19/reference/viral_shedding.html</loc></url>
 </urlset>
 

@@ -1,3 +1,5 @@
+source(here::here("data-raw/common-data.R"))
+
 # get and cache data
 raw_lineages = .cache_download(
   "https://covid-surveillance-data.cog.sanger.ac.uk/download/lineages_by_ltla_and_week.tsv"

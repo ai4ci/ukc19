@@ -1,5 +1,13 @@
 # NEWS
 
+# ukc19 0.0.3
+
+New data sets included:
+
+* COVID-19 challenge study data: `covid_challenge`
+* Early global data from the John Hopkins: `early_global_combined`
+* Viral shedding data, test sensitivity after symptoms: `viral_shedding`
+
 # ukc19 0.0.2
 
 New data sets included:

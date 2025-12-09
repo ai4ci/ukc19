@@ -22,6 +22,11 @@ rows and 3 columns.
 
 ## Details
 
+"This is a publication of the U.S. Government. This publication is in
+the public domain and is therefore without copyright. All text from this
+work may be reprinted freely. Use of these materials should be properly
+cited."
+
 ### `du_serial_interval` dataframe with 752 rows and 3 columns
 
 - `id` (dbl) :

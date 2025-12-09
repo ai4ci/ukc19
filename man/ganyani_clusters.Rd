@@ -21,6 +21,9 @@ doi: 10.2807/1560-7917.ES.2020.25.17.2000257. PMID: 32372755; PMCID:
 PMC7201952.
 }
 \details{
+Original article licensed under
+\href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons 4.0}.
+Data was cleansed and formatted for R.
 \subsection{\code{ganyani_clusters} dataframe with 196 rows and 6 columns}{
 
 \describe{

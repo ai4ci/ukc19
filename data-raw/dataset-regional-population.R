@@ -67,7 +67,7 @@ uk_population_2019 = pop_2 %>%
   ) %>%
   glimpse()
 
-usethis::use_data(uk_population_2019)
+usethis::use_data(uk_population_2019, overwrite = TRUE)
 
 ## LTLA population by 5 year ----
 

@@ -23,6 +23,10 @@ rows and 6 columns.
 
 ## Details
 
+Original article licensed under [Creative Commons
+4.0](https://creativecommons.org/licenses/by/4.0/). Data was cleansed
+and formatted for R.
+
 ### `ganyani_clusters` dataframe with 196 rows and 6 columns
 
 - `id` (dbl) :
