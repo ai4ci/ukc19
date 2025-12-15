@@ -23,6 +23,6 @@ Depends:
     R (>= 3.5)
 LazyData: true
 Language: en-GB
-URL: https://ai4ci.github.io/ukc19, https://github.com/ai4ci/ukc19
+URL: https://ai4ci.github.io/ukc19/, https://github.com/ai4ci/ukc19
 Imports: 
     dplyr

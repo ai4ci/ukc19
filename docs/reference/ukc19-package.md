@@ -8,7 +8,7 @@ demonstration purposes.
 
 Useful links:
 
-- <https://ai4ci.github.io/ukc19>
+- <https://ai4ci.github.io/ukc19/>
 
 - <https://github.com/ai4ci/ukc19>
 

@@ -13,7 +13,7 @@ Provides easy access to a curated selection of pre-processed data sets relevant 
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://ai4ci.github.io/ukc19}
+  \item \url{https://ai4ci.github.io/ukc19/}
   \item \url{https://github.com/ai4ci/ukc19}
 }
 
