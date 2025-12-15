@@ -14,7 +14,7 @@ New data sets included:
 
 * ONS geography codes for selected administrative geographies: `geography`
 * Regional ONS population estimates: 
-  + `uk_population_2019`: National, regional and subnational total population estimates
+  + `uk_population_2019`: National, regional and sub-national total population estimates
   + `uk_population_2019_by_5yr_age`: National and regional 5yr age band population estimates
   + `uk_population_2019_by_10yr_age`: National and regional 10yr age band population estimates
 * Timeline of major events in the UK response: `timeline`

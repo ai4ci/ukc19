@@ -7,13 +7,9 @@
 #' the vector files of the figures. The Y-axis values are approximate as had
 #' to be manually read from the scale.
 #'
-#' Data extracted from figure 2 Viral shedding after a short incubation period
-#' peaks rapidly after human SARS-CoV-2 challenge. Panel A (middle left
-#' sub panel).
-#'
-#' Killingley, B., Mann, A.J., Kalinova, M. et al. Safety, tolerability and
-#' viral kinetics during SARS-CoV-2 human challenge in young adults. Nat Med 28,
-#' 1031–1041 (2022). https://doi.org/10.1038/s41591-022-01780-9
+#' Data extracted from Killingley et al, 2022, figure 2 "Viral shedding after a
+#' short incubation period peaks rapidly after human SARS-CoV-2 challenge".
+#' Panel A (middle left sub panel).
 #'
 #' For datasets compiled from existing literature, Scientific Data’s policy is
 #' that compilers (creators of the secondary compilation dataset and authors of
@@ -34,12 +30,19 @@
 #'       }
 #'  }
 #'
+#' @references
+#' B. Killingley et al., ‘Safety, tolerability and viral kinetics during SARS-CoV-2 human challenge in young adults’, Nat Med, vol. 28, no. 5, pp. 1031–1041, May 2022, doi: 10.1038/s41591-022-01780-9.
+#'
 #' @usage data("covid_challenge")
 #'
 #' @docType data
 #' @keywords datasets
 #' @concept datasets
 #' @source <https://www.nature.com/articles/s41591-022-01780-9/figures/2>
+#'
+#'
+#'
+#'
 #' @examples
 #' dplyr::glimpse(covid_challenge)
 "covid_challenge"

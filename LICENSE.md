@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2025 ukc19 authors
+Copyright (c) 2025 AI4CI Hub; UKRI AI Programme and EPSRC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

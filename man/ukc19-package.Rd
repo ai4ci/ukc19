@@ -4,9 +4,11 @@
 \name{ukc19-package}
 \alias{ukc19}
 \alias{ukc19-package}
-\title{ukc19: Datasets from the UK COVID-19 outbreak}
+\title{ukc19: Datasets from the UK COVID-19 Outbreak}
 \description{
-Provides simple access to a small selection of pre-wrangled data sets relevant to the COVId-19 outbreak in the UK for teaching and demo purposes.
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
+Provides easy access to a curated selection of pre-processed data sets relevant to the COVID-19 outbreak in the UK for teaching and demonstration purposes.
 }
 \seealso{
 Useful links:
@@ -18,6 +20,11 @@ Useful links:
 }
 \author{
 \strong{Maintainer}: Robert Challen \email{rob.challen@bristol.ac.uk} (\href{https://orcid.org/0000-0002-5504-7768}{ORCID})
+
+Other contributors:
+\itemize{
+  \item AI4CI Hub; UKRI AI Programme and EPSRC (EP/Y028392/1) (https://gtr.ukri.org/projects?ref=EP%2FY028392%2F1) [funder, copyright holder]
+}
 
 }
 \keyword{internal}

@@ -3,7 +3,7 @@
 ## Datasets
 
 - [`covid_challenge`](https://ai4ci.github.io/ukc19/reference/covid_challenge.md)
-  : Covid-19 Viral load following challenge
+  : COVID-19 viral load following challenge
 - [`covid_variants`](https://ai4ci.github.io/ukc19/reference/covid_variants.md)
   : COG-UK counts of genomic variants
 - [`covid_variants_ltla`](https://ai4ci.github.io/ukc19/reference/covid_variants_ltla.md)
@@ -26,7 +26,7 @@
 - [`nhs_app`](https://ai4ci.github.io/ukc19/reference/nhs_app.md) : NHS
   digital contact tracing activity
 - [`ons_infection_survey`](https://ai4ci.github.io/ukc19/reference/ons_infection_survey.md)
-  : ONS COVID-19 infection survery
+  : ONS COVID-19 infection survey
 - [`pcr_test_sensitivity`](https://ai4ci.github.io/ukc19/reference/pcr_test_sensitivity.md)
   : COVID PCR test sensitivity over time
 - [`spim_consensus`](https://ai4ci.github.io/ukc19/reference/spim_consensus.md)
@@ -34,12 +34,12 @@
 - [`timeline`](https://ai4ci.github.io/ukc19/reference/timeline.md) :
   Timeline of events
 - [`uk_population_2019`](https://ai4ci.github.io/ukc19/reference/uk_population_2019.md)
-  : Country, regional, and subnational total population estimates
+  : Country, regional, and sub-national total population estimates
 - [`uk_population_2019_by_10yr_age`](https://ai4ci.github.io/ukc19/reference/uk_population_2019_by_10yr_age.md)
-  : Country, regional, and subnational population estimates by 10 year
+  : Country, regional, and sub-national population estimates by 10 year
   age groups
 - [`uk_population_2019_by_5yr_age`](https://ai4ci.github.io/ukc19/reference/uk_population_2019_by_5yr_age.md)
-  : Country, regional, and subnational population estimates by 5 year
+  : Country, regional, and sub-national population estimates by 5 year
   age groups
 - [`viral_shedding`](https://ai4ci.github.io/ukc19/reference/viral_shedding.md)
   : COVID-19 Viral shedding data

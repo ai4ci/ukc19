@@ -3,7 +3,7 @@
 \docType{data}
 \name{uk_population_2019_by_5yr_age}
 \alias{uk_population_2019_by_5yr_age}
-\title{Country, regional, and subnational population estimates by 5 year age groups}
+\title{Country, regional, and sub-national population estimates by 5 year age groups}
 \format{
 An object of class \code{grouped_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 7562 rows and 6 columns.
 }
@@ -16,7 +16,7 @@ Originally licensed under the \href{http://www.nationalarchives.gov.uk/doc/open-
 data("uk_population_2019_by_5yr_age")
 }
 \description{
-ONS National and subnational mid-year population estimates for the UK and its
+ONS National and sub-national mid-year population estimates for the UK and its
 constituent countries by administrative area, age and sex (including
 components of population change, median age and population density).
 }

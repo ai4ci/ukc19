@@ -14,29 +14,23 @@ An object of class \code{list} of length 2.
 data("pcr_test_sensitivity")
 }
 \description{
-Rachelle N Binny, Patricia Priest, Nigel P French, Matthew Parry, Audrey
-Lustig, Shaun C Hendy, Oliver J Maclaren, Kannan M Ridings, Nicholas Steyn,
-Giorgia Vattiato, Michael J Plank, Sensitivity of Reverse Transcription
-Polymerase Chain Reaction Tests for Severe Acute Respiratory Syndrome
-Coronavirus 2 Through Time, The Journal of Infectious Diseases, Volume 227,
-Issue 1, 1 January 2023, Pages 9–17, https://doi.org/10.1093/infdis/jiac317
+Model output from Binny et al, 2023, describing the sensitivity of COVID PCR tests
+over the course of an infection.
 }
 \details{
 \subsection{\code{pcr_test_sensitivity} named list with 2 items}{
 
 \describe{
 \item{ \code{modelled} (df modelled*) }{
-Original data from supplementary
+Original model output from supplementary
 }
 \item{ \code{resampled} (df resampled*) }{
-resampled description
+resampled and reformatted data
 }
 }
 }
 
 \subsection{\verb{df modelled} dataframe with 501 rows and 4 columns}{
-
-Model output
 
 \describe{
 \item{ \code{days_since_infection} (dbl) }{
@@ -68,6 +62,14 @@ a bootstrap identifier
 }
 }
 }
+}
+\references{
+Rachelle N Binny, Patricia Priest, Nigel P French, Matthew Parry, Audrey
+Lustig, Shaun C Hendy, Oliver J Maclaren, Kannan M Ridings, Nicholas Steyn,
+Giorgia Vattiato, Michael J Plank, Sensitivity of Reverse Transcription
+Polymerase Chain Reaction Tests for Severe Acute Respiratory Syndrome
+Coronavirus 2 Through Time, The Journal of Infectious Diseases, Volume 227,
+Issue 1, 1 January 2023, Pages 9–17, https://doi.org/10.1093/infdis/jiac317
 }
 \concept{datasets}
 \keyword{datasets}

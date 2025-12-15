@@ -14,10 +14,8 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 data("du_serial_interval")
 }
 \description{
-Data from Z. Du, X. Xu, Y. Wu, L. Wang, B. J. Cowling, and L. A. Meyers,
-‘Serial Interval of COVID-19 among Publicly Reported Confirmed Cases’, Emerg
-Infect Dis, vol. 26, no. 6, pp. 1341–1343, Jun. 2020, doi:
-10.3201/eid2606.200357.
+Data on which initial serial interval estimates were performed by Du et al,
+2020.
 }
 \details{
 "This is a publication of the U.S. Government. This publication is in the
@@ -40,6 +38,12 @@ Case id of infector where known
 }
 \examples{
 dplyr::glimpse(du_serial_interval)
+}
+\references{
+Z. Du, X. Xu, Y. Wu, L. Wang, B. J. Cowling, and L. A. Meyers,
+‘Serial Interval of COVID-19 among Publicly Reported Confirmed Cases’, Emerg
+Infect Dis, vol. 26, no. 6, pp. 1341–1343, Jun. 2020, doi:
+10.3201/eid2606.200357.
 }
 \concept{datasets}
 \keyword{datasets}

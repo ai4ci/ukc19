@@ -1,9 +1,9 @@
 # COG-UK counts of genomic variants by lower tier local authority
 
-Weekly counts of identified variants by Lower tier local authority (2019
-names) This dataset has implicit zeros. The full range of areas can be
-got from the `geography` data set with:
-`geography %>% dplyr::filter(codeType == "LAD19")`
+Counts of COVID-19 variants from the COGUK COVID-19 sequencing project.
+Positive samples were selected based on viral load on initial PCR
+testing and sent onward for testing. Prioritisation and over-sampling of
+cases with S-gene target failure happened so this data is not unbiased.
 
 ## Usage
 
@@ -25,23 +25,28 @@ for National Statistics licensed under the Open Government Licence v.3.0
 
 ## Details
 
-From late March 2023 onwards, due to the low number of sequenced
-samples, the UK SARS-CoV-2 sequencing surveillance data is not updated
-on the Wellcome Sanger Institute COVID-19 Genomic surveillance
-dashboard. Due to changes since the end of mass COVID-19 testing in the
-UK since April 2022 - the Wellcome Sanger Institute COVID-19 Genomic
-surveillance dashboard only includes a subset of UK SARS-CoV-2
-sequencing surveillance data and should not be used to estimate
-frequency of SARS-CoV-2 variants circulating. Not all samples sequenced
-and deposited in public databases are presented here. This data is not
-de-duplicated on a patient level - and may include targeted sequencing
-that may introduce biases.
+Weekly counts of identified variants by Lower tier local authority (2019
+names) This dataset has implicit zeros. The full range of areas can be
+got from the `geography` data set with:
+`geography %>% dplyr::filter(codeType == "LAD19")`
+
+From late March 2023 onward, due to the low number of sequenced samples,
+the UK SARS-CoV-2 sequencing surveillance data is not updated on the
+Wellcome Sanger Institute COVID-19 Genomic surveillance dashboard. Due
+to changes since the end of mass COVID-19 testing in the UK since April
+2022 - the Wellcome Sanger Institute COVID-19 Genomic surveillance
+dashboard only includes a subset of UK SARS-CoV-2 sequencing
+surveillance data and should not be used to estimate frequency of
+SARS-CoV-2 variants circulating. Not all samples sequenced and deposited
+in public databases are presented here. This data is not de-duplicated
+on a patient level - and may include targeted sequencing that may
+introduce biases.
 
 ### `covid_variants_ltla` dataframe with 55785 rows and 8 columns
 
 - `date` (date) :
 
-  The date
+  The date - unclear if this was of the sample or result
 
 - `code` (chr) :
 

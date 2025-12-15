@@ -21,7 +21,7 @@
 #'         The country
 #'       }
 #'     \item{ `province` (chr) }{
-#'         subnational division
+#'         Sub-national division
 #'       }
 #'     \item{ `lat` (dbl) }{
 #'         Latitude
@@ -33,7 +33,7 @@
 #'         Date of the observation based on reports of cases on this date.
 #'       }
 #'     \item{ `total_cases` (dbl) }{
-#'         Cumulative cases as
+#'         Cumulative cases
 #'       }
 #'     \item{ `published_date` (date) }{
 #'         Date the observation was published on the JHU github.

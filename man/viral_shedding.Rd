@@ -14,10 +14,8 @@ An object of class \code{list} of length 2.
 data("viral_shedding")
 }
 \description{
-van Kampen, J.J.A., van de Vijver, D.A.M.C., Fraaij, P.L.A. et al. Duration
-and key determinants of infectious virus shedding in hospitalized patients
-with coronavirus disease-2019 (COVID-19). Nat Commun 12, 267 (2021).
-https://doi.org/10.1038/s41467-020-20568-4
+Data from van Kampen et al, 2019, describing duration of viral shedding
+from symptom onset in patients with COVID-19.
 }
 \details{
 \subsection{\code{viral_shedding} named list with 2 items}{
@@ -54,7 +52,7 @@ virus culture result
 
 \describe{
 \item{ \code{tau} (int) }{
-time from syptom onset to measurement
+time from symptom onset to measurement
 }
 \item{ \code{probability} (dbl) }{
 probability of detected viral excretion
@@ -64,6 +62,12 @@ a bootstrap identifier
 }
 }
 }
+}
+\references{
+van Kampen, J.J.A., van de Vijver, D.A.M.C., Fraaij, P.L.A. et al. Duration
+and key determinants of infectious virus shedding in hospitalized patients
+with coronavirus disease-2019 (COVID-19). Nat Commun 12, 267 (2021).
+https://doi.org/10.1038/s41467-020-20568-4
 }
 \concept{datasets}
 \keyword{datasets}

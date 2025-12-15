@@ -1,12 +1,7 @@
 # COVID PCR test sensitivity over time
 
-Rachelle N Binny, Patricia Priest, Nigel P French, Matthew Parry, Audrey
-Lustig, Shaun C Hendy, Oliver J Maclaren, Kannan M Ridings, Nicholas
-Steyn, Giorgia Vattiato, Michael J Plank, Sensitivity of Reverse
-Transcription Polymerase Chain Reaction Tests for Severe Acute
-Respiratory Syndrome Coronavirus 2 Through Time, The Journal of
-Infectious Diseases, Volume 227, Issue 1, 1 January 2023, Pages 9–17,
-https://doi.org/10.1093/infdis/jiac317
+Model output from Binny et al, 2023, describing the sensitivity of COVID
+PCR tests over the course of an infection.
 
 ## Usage
 
@@ -28,15 +23,13 @@ An object of class `list` of length 2.
 
 - `modelled` (df modelled\*) :
 
-  Original data from supplementary
+  Original model output from supplementary
 
 - `resampled` (df resampled\*) :
 
-  resampled description
+  resampled and reformatted data
 
 ### `df modelled` dataframe with 501 rows and 4 columns
-
-Model output
 
 - `days_since_infection` (dbl) :
 
@@ -67,3 +60,13 @@ Model output
 - `boot` (int) :
 
   a bootstrap identifier
+
+## References
+
+Rachelle N Binny, Patricia Priest, Nigel P French, Matthew Parry, Audrey
+Lustig, Shaun C Hendy, Oliver J Maclaren, Kannan M Ridings, Nicholas
+Steyn, Giorgia Vattiato, Michael J Plank, Sensitivity of Reverse
+Transcription Polymerase Chain Reaction Tests for Severe Acute
+Respiratory Syndrome Coronavirus 2 Through Time, The Journal of
+Infectious Diseases, Volume 227, Issue 1, 1 January 2023, Pages 9–17,
+https://doi.org/10.1093/infdis/jiac317

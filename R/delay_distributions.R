@@ -2,28 +2,21 @@
 
 #' COVID PCR test sensitivity over time
 #'
-#' Rachelle N Binny, Patricia Priest, Nigel P French, Matthew Parry, Audrey
-#' Lustig, Shaun C Hendy, Oliver J Maclaren, Kannan M Ridings, Nicholas Steyn,
-#' Giorgia Vattiato, Michael J Plank, Sensitivity of Reverse Transcription
-#' Polymerase Chain Reaction Tests for Severe Acute Respiratory Syndrome
-#' Coronavirus 2 Through Time, The Journal of Infectious Diseases, Volume 227,
-#' Issue 1, 1 January 2023, Pages 9–17, https://doi.org/10.1093/infdis/jiac317
+#' Model output from Binny et al, 2023, describing the sensitivity of COVID PCR tests
+#' over the course of an infection.
 #'
 #' ## `pcr_test_sensitivity` named list with 2 items
 #'
 #' \describe{
 #'     \item{ `modelled` (df modelled*) }{
-#'         Original data from supplementary
+#'         Original model output from supplementary
 #'       }
 #'     \item{ `resampled` (df resampled*) }{
-#'         resampled description
+#'         resampled and reformatted data
 #'       }
 #'  }
 #'
-#'
 #' ## `df modelled` dataframe with 501 rows and 4 columns
-#'
-#' Model output
 #'
 #' \describe{
 #'     \item{ `days_since_infection` (dbl) }{
@@ -54,6 +47,14 @@
 #'       }
 #'  }
 #'
+#' @references
+#' Rachelle N Binny, Patricia Priest, Nigel P French, Matthew Parry, Audrey
+#' Lustig, Shaun C Hendy, Oliver J Maclaren, Kannan M Ridings, Nicholas Steyn,
+#' Giorgia Vattiato, Michael J Plank, Sensitivity of Reverse Transcription
+#' Polymerase Chain Reaction Tests for Severe Acute Respiratory Syndrome
+#' Coronavirus 2 Through Time, The Journal of Infectious Diseases, Volume 227,
+#' Issue 1, 1 January 2023, Pages 9–17, https://doi.org/10.1093/infdis/jiac317
+#'
 #'
 #' @usage data("pcr_test_sensitivity")
 #'
@@ -69,10 +70,8 @@
 
 #' COVID-19 Viral shedding data
 #'
-#' van Kampen, J.J.A., van de Vijver, D.A.M.C., Fraaij, P.L.A. et al. Duration
-#' and key determinants of infectious virus shedding in hospitalized patients
-#' with coronavirus disease-2019 (COVID-19). Nat Commun 12, 267 (2021).
-#' https://doi.org/10.1038/s41467-020-20568-4
+#' Data from van Kampen et al, 2019, describing duration of viral shedding
+#' from symptom onset in patients with COVID-19.
 #'
 #' ## `viral_shedding` named list with 2 items
 #'
@@ -108,7 +107,7 @@
 #'
 #' \describe{
 #'     \item{ `tau` (int) }{
-#'         time from syptom onset to measurement
+#'         time from symptom onset to measurement
 #'       }
 #'     \item{ `probability` (dbl) }{
 #'         probability of detected viral excretion
@@ -118,6 +117,11 @@
 #'       }
 #'  }
 #'
+#' @references
+#' van Kampen, J.J.A., van de Vijver, D.A.M.C., Fraaij, P.L.A. et al. Duration
+#' and key determinants of infectious virus shedding in hospitalized patients
+#' with coronavirus disease-2019 (COVID-19). Nat Commun 12, 267 (2021).
+#' https://doi.org/10.1038/s41467-020-20568-4
 #'
 #' @usage data("viral_shedding")
 #'

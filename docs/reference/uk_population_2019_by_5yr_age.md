@@ -1,6 +1,6 @@
-# Country, regional, and subnational population estimates by 5 year age groups
+# Country, regional, and sub-national population estimates by 5 year age groups
 
-ONS National and subnational mid-year population estimates for the UK
+ONS National and sub-national mid-year population estimates for the UK
 and its constituent countries by administrative area, age and sex
 (including components of population change, median age and population
 density).

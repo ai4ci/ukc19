@@ -14,8 +14,8 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 data("timeline")
 }
 \description{
-Major events in the UK COVID-19 pandemic, limited to lockdowns, vaccination
-rollout and first identification of major variants.
+Major events in the UK COVID-19 pandemic, limited to lock-downs, vaccination
+roll-out and first identification of major variants.
 }
 \details{
 \describe{

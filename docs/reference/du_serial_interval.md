@@ -1,9 +1,7 @@
 # Serial interval from publicly reported cases
 
-Data from Z. Du, X. Xu, Y. Wu, L. Wang, B. J. Cowling, and L. A. Meyers,
-‘Serial Interval of COVID-19 among Publicly Reported Confirmed Cases’,
-Emerg Infect Dis, vol. 26, no. 6, pp. 1341–1343, Jun. 2020, doi:
-10.3201/eid2606.200357.
+Data on which initial serial interval estimates were performed by Du et
+al, 2020.
 
 ## Usage
 
@@ -40,6 +38,13 @@ cited."
 - `infector_id` (dbl) :
 
   Case id of infector where known
+
+## References
+
+Z. Du, X. Xu, Y. Wu, L. Wang, B. J. Cowling, and L. A. Meyers, ‘Serial
+Interval of COVID-19 among Publicly Reported Confirmed Cases’, Emerg
+Infect Dis, vol. 26, no. 6, pp. 1341–1343, Jun. 2020, doi:
+10.3201/eid2606.200357.
 
 ## Examples
 

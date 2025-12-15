@@ -5,14 +5,22 @@ form for teaching and demonstration purposes.
 
 This data is sourced from publicly available data sets from various UK
 government websites where different aspects of the UK COVID-19 response
-published data. It is by no means comprehensive but aims to capture some
-of the main data so that it is preserved.
+published data, and from publicly available data from key studies. It is
+by no means comprehensive but aims to capture some of the main data in a
+single place so that it is preserved.
 
 At present the data is mostly focused on England.
 
 ## Installation
 
-`ukc19` is hosted on the [AI4CI
+You can install the released version of `ukc19` from
+[CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("ukc19")
+```
+
+Interim releases of `ukc19` are hosted on the [AI4CI
 r-universe](https://ai4ci.r-universe.dev/). Installation from there is
 as follows:
 

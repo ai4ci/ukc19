@@ -3,7 +3,7 @@
 \docType{data}
 \name{uk_population_2019}
 \alias{uk_population_2019}
-\title{Country, regional, and subnational total population estimates}
+\title{Country, regional, and sub-national total population estimates}
 \format{
 An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 398 rows and 4 columns.
 }
@@ -16,7 +16,7 @@ Originally licensed under the \href{http://www.nationalarchives.gov.uk/doc/open-
 data("uk_population_2019")
 }
 \description{
-ONS National and subnational mid-year population estimates for the UK and its
+ONS National and sub-national mid-year population estimates for the UK and its
 constituent countries by administrative area, age and sex (including
 components of population change, median age and population density).
 }

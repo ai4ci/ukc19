@@ -37,7 +37,7 @@ Copyright Johns Hopkins University 2020.
 
 - `province` (chr) :
 
-  subnational division
+  Sub-national division
 
 - `lat` (dbl) :
 
@@ -53,7 +53,7 @@ Copyright Johns Hopkins University 2020.
 
 - `total_cases` (dbl) :
 
-  Cumulative cases as
+  Cumulative cases
 
 - `published_date` (date) :
 

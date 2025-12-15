@@ -3,7 +3,7 @@
 \docType{data}
 \name{ons_infection_survey}
 \alias{ons_infection_survey}
-\title{ONS COVID-19 infection survery}
+\title{ONS COVID-19 infection survey}
 \format{
 An object of class \code{grouped_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 9820 rows and 8 columns.
 }
@@ -18,7 +18,8 @@ data("ons_infection_survey")
 \description{
 The COVID-19 ONS infection survey took a random sample of the population
 and provides an estimate of the prevalence of COVID-19 that is theoretically
-free from ascertainment bias.
+free from ascertainment bias. This data set is the output of the model based
+on underlying data.
 }
 \details{
 \describe{

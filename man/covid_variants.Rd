@@ -20,7 +20,12 @@ data("covid_variants")
 Weekly counts of identified variants for the whole of England.
 }
 \details{
-From late March 2023 onwards, due to the low number of sequenced samples, the
+Counts of COVID-19 variants from the COGUK COVID-19 sequencing project.
+Positive samples were selected based on viral load on initial PCR testing and
+sent onward for testing. Prioritisation and over-sampling of cases with S-gene
+target failure happened so this data is not unbiased.
+
+From late March 2023 onward, due to the low number of sequenced samples, the
 UK SARS-CoV-2 sequencing surveillance data is not updated on the Wellcome
 Sanger Institute COVID-19 Genomic surveillance dashboard. Due to changes
 since the end of mass COVID-19 testing in the UK since April 2022 - the
@@ -34,7 +39,7 @@ sequencing that may introduce biases.
 
 \describe{
 \item{ \code{date} (date) }{
-The date
+The date - unclear if this was of the sample or result
 }
 \item{ \code{class} (fct) }{
 The variant description as a name and pango lineage

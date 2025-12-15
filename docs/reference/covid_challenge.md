@@ -1,7 +1,7 @@
-# Covid-19 Viral load following challenge
+# COVID-19 viral load following challenge
 
 Viral load from nasal swabs of subset of positive participants from
-COVID-19 human challenge study, as deteced by Quantitative PCR. Values
+COVID-19 human challenge study, as detected by Quantitative PCR. Values
 were mined from the vector files of the figures. The Y-axis values are
 approximate as had to be manually read from the scale.
 
@@ -22,13 +22,9 @@ rows and 3 columns.
 
 ## Details
 
-Data extracted from figure 2 Viral shedding after a short incubation
-period peaks rapidly after human SARS-CoV-2 challenge. Panel A (middle
-left subpanel).
-
-Killingley, B., Mann, A.J., Kalinova, M. et al. Safety, tolerability and
-viral kinetics during SARS-CoV-2 human challenge in young adults. Nat
-Med 28, 1031–1041 (2022). https://doi.org/10.1038/s41591-022-01780-9
+Data extracted from Killingley et al, 2022, figure 2 "Viral shedding
+after a short incubation period peaks rapidly after human SARS-CoV-2
+challenge". Panel A (middle left sub panel).
 
 For datasets compiled from existing literature, Scientific Data’s policy
 is that compilers (creators of the secondary compilation dataset and
@@ -48,6 +44,12 @@ to attribute the original work via citation.
 - `time` (dbl) :
 
   time of the sample in days from exposure.
+
+## References
+
+B. Killingley et al., ‘Safety, tolerability and viral kinetics during
+SARS-CoV-2 human challenge in young adults’, Nat Med, vol. 28, no. 5,
+pp. 1031–1041, May 2022, doi: 10.1038/s41591-022-01780-9.
 
 ## Examples
 

@@ -3,7 +3,7 @@
 \docType{data}
 \name{covid_challenge}
 \alias{covid_challenge}
-\title{Covid-19 Viral load following challenge}
+\title{COVID-19 viral load following challenge}
 \format{
 An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 629 rows and 3 columns.
 }
@@ -15,18 +15,14 @@ data("covid_challenge")
 }
 \description{
 Viral load from nasal swabs of subset of positive participants from COVID-19
-human challenge study, as deteced by Quantitative PCR. Values were mined from
+human challenge study, as detected by Quantitative PCR. Values were mined from
 the vector files of the figures. The Y-axis values are approximate as had
 to be manually read from the scale.
 }
 \details{
-Data extracted from figure 2 Viral shedding after a short incubation period
-peaks rapidly after human SARS-CoV-2 challenge. Panel A (middle left
-subpanel).
-
-Killingley, B., Mann, A.J., Kalinova, M. et al. Safety, tolerability and
-viral kinetics during SARS-CoV-2 human challenge in young adults. Nat Med 28,
-1031–1041 (2022). https://doi.org/10.1038/s41591-022-01780-9
+Data extracted from Killingley et al, 2022, figure 2 "Viral shedding after a
+short incubation period peaks rapidly after human SARS-CoV-2 challenge".
+Panel A (middle left sub panel).
 
 For datasets compiled from existing literature, Scientific Data’s policy is
 that compilers (creators of the secondary compilation dataset and authors of
@@ -49,6 +45,9 @@ time of the sample in days from exposure.
 }
 \examples{
 dplyr::glimpse(covid_challenge)
+}
+\references{
+B. Killingley et al., ‘Safety, tolerability and viral kinetics during SARS-CoV-2 human challenge in young adults’, Nat Med, vol. 28, no. 5, pp. 1031–1041, May 2022, doi: 10.1038/s41591-022-01780-9.
 }
 \concept{datasets}
 \keyword{datasets}

@@ -1,9 +1,9 @@
 # UK geographic codes an CTRY, RGN and LAD level
 
 Geographic codes and names from the ONS for administrative regions of
-the UK relevant to the UKs covid response. There are multiple entries
-for lower tier local authority codes as these changed during the course
-of the pandemic.
+the UK relevant to the COVID-19 response. There are multiple entries for
+lower tier local authority codes as these changed during the course of
+the pandemic.
 
 ## Usage
 

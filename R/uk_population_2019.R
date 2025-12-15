@@ -1,8 +1,8 @@
 ## documentation block for `uk_population_2019` ----
 
-#' Country, regional, and subnational total population estimates
+#' Country, regional, and sub-national total population estimates
 #'
-#' ONS National and subnational mid-year population estimates for the UK and its
+#' ONS National and sub-national mid-year population estimates for the UK and its
 #' constituent countries by administrative area, age and sex (including
 #' components of population change, median age and population density).
 #'
@@ -44,9 +44,9 @@
 
 ## documentation block for `uk_population_2019_by_5yr_age` ----
 
-#' Country, regional, and subnational population estimates by 5 year age groups
+#' Country, regional, and sub-national population estimates by 5 year age groups
 #'
-#' ONS National and subnational mid-year population estimates for the UK and its
+#' ONS National and sub-national mid-year population estimates for the UK and its
 #' constituent countries by administrative area, age and sex (including
 #' components of population change, median age and population density).
 #'
@@ -96,9 +96,9 @@
 
 ## documentation block for `uk_population_2019_by_10yr_age` ----
 
-#' Country, regional, and subnational population estimates by 10 year age groups
+#' Country, regional, and sub-national population estimates by 10 year age groups
 #'
-#' ONS National and subnational mid-year population estimates for the UK and its
+#' ONS National and sub-national mid-year population estimates for the UK and its
 #' constituent countries by administrative area, age and sex (including
 #' components of population change, median age and population density).
 #'

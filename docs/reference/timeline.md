@@ -1,7 +1,7 @@
 # Timeline of events
 
-Major events in the UK COVID-19 pandemic, limited to lockdowns,
-vaccination rollout and first identification of major variants.
+Major events in the UK COVID-19 pandemic, limited to lock-downs,
+vaccination roll-out and first identification of major variants.
 
 ## Usage
 

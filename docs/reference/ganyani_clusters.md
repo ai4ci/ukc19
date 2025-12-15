@@ -1,10 +1,7 @@
 # COVID-19 cluster outbreaks data from Tianjin and Singapore
 
-Ganyani T, Kremer C, Chen D, Torneri A, Faes C, Wallinga J, Hens N.
-Estimating the generation interval for coronavirus disease (COVID-19)
-based on symptom onset data, March 2020. Euro Surveill. 2020
-Apr;25(17):2000257. doi: 10.2807/1560-7917.ES.2020.25.17.2000257. PMID:
-32372755; PMCID: PMC7201952.
+Data from which serial interval and generation time estimates were
+performed by Ganyani et al, 2020
 
 ## Usage
 
@@ -52,6 +49,14 @@ and formatted for R.
 - `source` (chr) :
 
   geographical source of the data
+
+## References
+
+Ganyani T, Kremer C, Chen D, Torneri A, Faes C, Wallinga J, Hens N.
+Estimating the generation interval for coronavirus disease (COVID-19)
+based on symptom onset data, March 2020. Euro Surveill. 2020
+Apr;25(17):2000257. doi: 10.2807/1560-7917.ES.2020.25.17.2000257. PMID:
+32372755; PMCID: PMC7201952.
 
 ## Examples
 

@@ -1,8 +1,9 @@
-# ONS COVID-19 infection survery
+# ONS COVID-19 infection survey
 
 The COVID-19 ONS infection survey took a random sample of the population
 and provides an estimate of the prevalence of COVID-19 that is
-theoretically free from ascertainment bias.
+theoretically free from ascertainment bias. This data set is the output
+of the model based on underlying data.
 
 ## Usage
 

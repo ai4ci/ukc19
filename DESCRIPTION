@@ -1,14 +1,20 @@
 Package: ukc19
-Title: Datasets from the UK COVID-19 outbreak
+Title: Datasets from the UK COVID-19 Outbreak
 Version: 0.0.3
-Authors@R: 
+Authors@R: c(
     person(given = "Robert",
            family = "Challen",
            role = c("aut", "cre"),
            email = "rob.challen@bristol.ac.uk",
-           comment = c(ORCID = "0000-0002-5504-7768"))
-Description: Provides simple access to a small selection of pre-wrangled data 
-  sets relevant to the COVId-19 outbreak in the UK for teaching and demo purposes.
+           comment = c(ORCID = "0000-0002-5504-7768")),
+    person("AI4CI Hub; UKRI AI Programme and EPSRC (EP/Y028392/1)", 
+           role = c("fnd", "cph"),
+           comment = c(
+             url = "https://gtr.ukri.org/projects?ref=EP%2FY028392%2F1"))
+    )
+Description: Provides easy access to a curated selection of pre-processed data 
+  sets relevant to the COVID-19 outbreak in the UK for teaching and 
+  demonstration purposes.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -16,6 +22,7 @@ RoxygenNote: 7.3.3.9007
 Depends: 
     R (>= 3.5)
 LazyData: true
+Language: en-GB
 URL: https://ai4ci.github.io/ukc19, https://github.com/ai4ci/ukc19
 Imports: 
     dplyr

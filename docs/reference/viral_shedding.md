@@ -1,9 +1,7 @@
 # COVID-19 Viral shedding data
 
-van Kampen, J.J.A., van de Vijver, D.A.M.C., Fraaij, P.L.A. et al.
-Duration and key determinants of infectious virus shedding in
-hospitalized patients with coronavirus disease-2019 (COVID-19). Nat
-Commun 12, 267 (2021). https://doi.org/10.1038/s41467-020-20568-4
+Data from van Kampen et al, 2019, describing duration of viral shedding
+from symptom onset in patients with COVID-19.
 
 ## Usage
 
@@ -53,7 +51,7 @@ An object of class `list` of length 2.
 
 - `tau` (int) :
 
-  time from syptom onset to measurement
+  time from symptom onset to measurement
 
 - `probability` (dbl) :
 
@@ -62,3 +60,10 @@ An object of class `list` of length 2.
 - `boot` (int) :
 
   a bootstrap identifier
+
+## References
+
+van Kampen, J.J.A., van de Vijver, D.A.M.C., Fraaij, P.L.A. et al.
+Duration and key determinants of infectious virus shedding in
+hospitalized patients with coronavirus disease-2019 (COVID-19). Nat
+Commun 12, 267 (2021). https://doi.org/10.1038/s41467-020-20568-4

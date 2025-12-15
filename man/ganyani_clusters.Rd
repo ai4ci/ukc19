@@ -14,11 +14,8 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 data("ganyani_clusters")
 }
 \description{
-Ganyani T, Kremer C, Chen D, Torneri A, Faes C, Wallinga J, Hens N.
-Estimating the generation interval for coronavirus disease (COVID-19) based
-on symptom onset data, March 2020. Euro Surveill. 2020 Apr;25(17):2000257.
-doi: 10.2807/1560-7917.ES.2020.25.17.2000257. PMID: 32372755; PMCID:
-PMC7201952.
+Data from which serial interval and generation time estimates were performed
+by Ganyani et al, 2020
 }
 \details{
 Original article licensed under
@@ -50,6 +47,13 @@ geographical source of the data
 }
 \examples{
 dplyr::glimpse(ganyani_clusters)
+}
+\references{
+Ganyani T, Kremer C, Chen D, Torneri A, Faes C, Wallinga J, Hens N.
+Estimating the generation interval for coronavirus disease (COVID-19) based
+on symptom onset data, March 2020. Euro Surveill. 2020 Apr;25(17):2000257.
+doi: 10.2807/1560-7917.ES.2020.25.17.2000257. PMID: 32372755; PMCID:
+PMC7201952.
 }
 \concept{datasets}
 \keyword{datasets}

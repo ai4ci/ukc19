@@ -34,7 +34,7 @@ University 2020.
 The country
 }
 \item{ \code{province} (chr) }{
-subnational division
+Sub-national division
 }
 \item{ \code{lat} (dbl) }{
 Latitude
@@ -46,7 +46,7 @@ Longitude
 Date of the observation based on reports of cases on this date.
 }
 \item{ \code{total_cases} (dbl) }{
-Cumulative cases as
+Cumulative cases
 }
 \item{ \code{published_date} (date) }{
 Date the observation was published on the JHU github.

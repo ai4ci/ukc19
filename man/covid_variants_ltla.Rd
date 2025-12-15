@@ -17,12 +17,17 @@ Office for National Statistics licensed under the Open Government Licence v.3.0
 data("covid_variants_ltla")
 }
 \description{
+Counts of COVID-19 variants from the COGUK COVID-19 sequencing project.
+Positive samples were selected based on viral load on initial PCR testing and
+sent onward for testing. Prioritisation and over-sampling of cases with S-gene
+target failure happened so this data is not unbiased.
+}
+\details{
 Weekly counts of identified variants by Lower tier local authority (2019 names)
 This dataset has implicit zeros. The full range of areas can be got from the
 \code{geography} data set with: \code{geography \%>\% dplyr::filter(codeType == "LAD19")}
-}
-\details{
-From late March 2023 onwards, due to the low number of sequenced samples, the
+
+From late March 2023 onward, due to the low number of sequenced samples, the
 UK SARS-CoV-2 sequencing surveillance data is not updated on the Wellcome
 Sanger Institute COVID-19 Genomic surveillance dashboard. Due to changes
 since the end of mass COVID-19 testing in the UK since April 2022 - the
@@ -36,7 +41,7 @@ sequencing that may introduce biases.
 
 \describe{
 \item{ \code{date} (date) }{
-The date
+The date - unclear if this was of the sample or result
 }
 \item{ \code{code} (chr) }{
 The ONS geographical region code

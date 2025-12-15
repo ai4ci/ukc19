@@ -17,7 +17,7 @@ data("spim_consensus")
 }
 \description{
 A set of consensus estimates for the reproduction number and growth rate
-of the COVID-19 epidemic in England
+of the COVID-19 epidemic in England, produced by the SPI-M-O subgroup of SAGE
 }
 \details{
 \subsection{\code{spim_consensus_rt} dataframe with 113 rows and 5 columns}{
