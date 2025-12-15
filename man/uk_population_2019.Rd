@@ -10,7 +10,7 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 \source{
 \url{https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates}
 
-Originally licensed under the \href{http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government Licence v3.0}
+Originally licensed under the \href{https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government Licence v3.0}
 }
 \usage{
 data("uk_population_2019")

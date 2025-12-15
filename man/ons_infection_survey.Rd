@@ -10,7 +10,7 @@ An object of class \code{grouped_df} (inherits from \code{tbl_df}, \code{tbl}, \
 \source{
 \url{https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases/datasets/coronaviruscovid19infectionsurveydata}
 
-Originally licensed under the \href{http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government Licence v3.0}
+Originally licensed under the \href{https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}{Open Government Licence v3.0}
 }
 \usage{
 data("ons_infection_survey")
