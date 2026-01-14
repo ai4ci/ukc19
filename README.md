@@ -5,6 +5,7 @@
 [![R-universe version](https://ai4ci.r-universe.dev/ukc19/badges/version)](https://ai4ci.r-universe.dev/ukc19)
 [![EPSRC badge](https://img.shields.io/badge/EPSRC%20grant-EP%2FY028392%2F1-05acb5)](https://gtr.ukri.org/projects?ref=EP%2FY028392%2F1)
 [![DOI](https://zenodo.org/badge/1104520603.svg)](https://doi.org/10.5281/zenodo.17733500)
+[![CRAN status](https://www.r-pkg.org/badges/version/ukc19)](https://CRAN.R-project.org/package=ukc19)
 <!-- badges: end -->
 
 A selection of aggregated COVID-19 data from the UK, in an easy to use form
